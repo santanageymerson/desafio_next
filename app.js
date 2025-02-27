@@ -1,8 +1,10 @@
 //O principal objetivo deste desafio é fortalecer suas habilidades em lógica de programação. Aqui você deverá desenvolver a lógica para resolver o problema.
 
-let listaAmigos = []; 
+let listaAmigos = [];  
 let nomeAmigo;
-let listaLi;
+let listaTagLi;
+const idListaAmigos = "listaAmigos"
+const idListaResultado = "resultado"
 
 function adicionarAmigo(){
     
@@ -13,12 +15,9 @@ function adicionarAmigo(){
     else{
         listaAmigos.push(nomeAmigo);
     }
-    limparCampo();
-    console.log(listaAmigos);
     
+    limparCampo();  
     percorreListaAmigos();
-
-
 }
 
 function limparCampo(){
@@ -27,17 +26,28 @@ function limparCampo(){
 }
 
 function percorreListaAmigos(){
-    limpaListaLi();
+    limpaListaLi(idListaAmigos);
     for (let i=0;i<listaAmigos.length;i++){
         
-        listaLi = document.createElement("li");
-        listaLi.innerHTML= listaAmigos[i];
-        document.getElementById("listaAmigos").append(listaLi);
-
+        criarListaLi(i);
+        document.getElementById(idListaAmigos).append(listaTagLi);
     }
 
 }
-function limpaListaLi(){
-    listaLi = document.getElementById("listaAmigos");
-    listaLi.innerHTML='';
+function criarListaLi(indice){
+    listaTagLi = document.createElement("li");
+    listaTagLi.innerHTML= listaAmigos[indice];
+}
+function limpaListaLi(id){
+    listaTagLi = document.getElementById(id);
+    listaTagLi.innerHTML='';
+}
+function sortearAmigo(){
+    if (listaAmigos.length != 0){
+        limpaListaLi(idListaAmigos);
+        limpaListaLi(idListaResultado)
+        let indiceAleatorio = parseInt(Math.random()* listaAmigos.length );
+        let amigoSorteado = listaAmigos[indiceAleatorio];
+        document.getElementById(idListaResultado).append(` O amigo secreto sorteado é : ${amigoSorteado}`)
+    }
 }

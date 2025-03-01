@@ -8,10 +8,10 @@ Os nomes inseridos serão exibidos em uma lista visível na página, e ao finali
 
 ## Funcionalidades
 
-- ![Adicionar](https://drive.google.com/file/d/1DztHNeSTX3GInLNTgNjF68gt0cQcNzMV/view?usp=sharing)**Adicionar nomes**: Os usuários escrevem o nome de um amigo e adicionam à lista.
-- ![Validar](https://drive.google.com/file/d/1VG0ll6afJPJtvSwn34zZX8YIwm9NNHWY/view)**Validar entrada**: Se o campo estiver vazio, um alerta será exibido.
+- ![Adicionar](https://github.com/santanageymerson/desafio_next/blob/main/assets/imagem1.png?raw=true)**Adicionar nomes**: Os usuários escrevem o nome de um amigo e adicionam à lista.
+- ![Validar](https://github.com/santanageymerson/desafio_next/blob/main/assets/imagem3.png?raw=true)**Validar entrada**: Se o campo estiver vazio, um alerta será exibido.
 - **Visualizar a lista**: Os nomes adicionados aparecem abaixo do campo de entrada.
-- ![Sorteio](https://drive.google.com/file/d/1d4MkchS3ECcw6eETZLlVR0UoPvVT3zUx/view?usp=sharing)**Sorteio aleatório**: Um nome será sorteado da lista ao clicar no botão.
+- ![Sorteio](https://github.com/santanageymerson/desafio_next/blob/main/assets/imagem2.png?raw=true)**Sorteio aleatório**: Um nome será sorteado da lista ao clicar no botão.
 
 ## Como Usar
 

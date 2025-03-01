@@ -17,7 +17,7 @@ Os nomes inseridos serão exibidos em uma lista visível na página, e ao finali
 
 1. Clone este repositório:
    ```bash
-   git clone https://git@github.com:santanageymerson/desafio_next.git
+   git clone https://github.com/santanageymerson/desafio_next.git
 2. Abra o arquivo `index.html` em um navegador.
 3. Digite um nome e clique em "Adicionar".
 4. Para sortear um nome, clique em "Sortear Amigo".
